@@ -1,0 +1,34 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    height: 100vh; /* Asegúrate de que el body ocupe toda la altura de la pantalla */
+    display: flex; /* Usar flexbox para centrar el contenido */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    margin: 0; /* Eliminar márgenes por defecto */
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Ancho del formulario */
+}
+
+input {
+    width: 100%; /* Hacer que los inputs ocupen el 100% del formulario */
+    padding: 10px; /* Espaciado interno */
+    margin: 10px 0; /* Margen entre los inputs */
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambiar cursor al pasar por encima */
+}
+
+
